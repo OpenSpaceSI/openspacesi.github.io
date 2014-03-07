@@ -1,0 +1,17 @@
+.navbar {
+    background: #EEEEEE !important;
+}
+
+.navbar li a {
+    border-left: 1px solid #EEEEEE !important;
+    border-right: 1px solid #EEEEEE !important;
+}
+
+.navbar li a:hover, .navbar li a:focus {
+    border-left-color: #888888 !important;
+    border-right-color: #888888 !important;
+}
+
+.openSpaceIcon {
+    height: 28px;
+}
