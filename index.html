@@ -4,11 +4,20 @@
     <head>
         <link rel="stylesheet" href="/css/pure.css">
         <link rel="stylesheet" href="/css/navbar.css">
+        <script src="/scripts/jquery.js"></script>
+        <script src="/scripts/navbar.js"></script>
+        <style>
+            #container {
+                min-width:320px;
+            }
+        </style>
     </head>
     <body>
-        {% include navbar.html %}
-        <h1>
-            Hello World!
-        </h1>
+        <div id="container">
+            {% include navbar.html %}
+            <h1>
+                Hello World!
+            </h1>
+        </div>
     </body>
 </html>
