@@ -6,6 +6,7 @@ $(document).ready(function(){
     $("#moreMenu").click(function() {
         $("#overflowMenu").slideToggle();
     });
+    windowResize();
 });
 
 function windowResize(e) {
