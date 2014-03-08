@@ -2,7 +2,10 @@ var MOBILE_WIDTH = 360; //What screen width do we treat as a mobile phone
 
 $(window).resize(windowResize); //Pay attention to window resizing.
 
-$(document).ready(function() {
+$(document).ready(function(){
+    $("#moreMenu").click(function() {
+        $("#overflowMenu").slideToggle();
+    });
 });
 
 function windowResize(e) {
@@ -11,7 +14,7 @@ function windowResize(e) {
     }
 
     if($("#overflowMenu").children().length==0) {
-        $("#moreMenu").hide();
+        hideMenuButton();
         return;
     }
 
@@ -19,7 +22,7 @@ function windowResize(e) {
     removeElements();
 
     if($("#overflowMenu").children().length==0) {
-        $("#moreMenu").hide();
+        hideMenuButton();
     }
 }
 
@@ -28,7 +31,6 @@ var oldLength = 0;
 function getNavbarWidth() {
     var childWidth = 0;
     var children = $("#navbar").children().children();
-    console.log(children);
     if(children.length==0) return 0;
     if(children.length!=oldChildrenCount) {
         oldChildrenCount = children.length;
@@ -47,7 +49,6 @@ function removeElements() {
     var width = $("#container").outerWidth(true);
     var childWidth = getNavbarWidth();
     if(childWidth > width) {
-        $("#moreMenu").show();
         while(getNavbarWidth() > width) {
             var children = $("#navbar").children().children();
             if(children.length==0) return;
@@ -55,6 +56,7 @@ function removeElements() {
             child.detach();
             child.prependTo("#overflowMenu");
         }
+        showMenuButton();
         return true;
     }
     return false;
@@ -73,4 +75,16 @@ function addElements() {
             child.insertBefore("#moreMenu");
         }
     }
+}
+
+function hideMenuButton() {
+    $("#moreMenu").hide();
+    $("#overflowMenu").slideUp();
+}
+
+function showMenuButton() {
+    $("#moreMenu").show();
+    var menu = $("#overflowMenu");
+    menu.css("left",($("#container").outerWidth(true) - menu.outerWidth(true)) + "px");
+    menu.slideUp();
 }

@@ -15,3 +15,22 @@
 .openSpaceIcon {
     height: 28px;
 }
+
+#overflowMenu {
+    position: absolute;
+    background: #4B4B4B;
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+
+#overflowMenu li {
+    list-style-type: none;
+    padding: 10px 30px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#overflowMenu a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
