@@ -86,6 +86,6 @@ function hideMenuButton() {
 function showMenuButton() {
     $("#moreMenu").show();
     var menu = $("#overflowMenu");
-    menu.css("left",($("#container").outerWidth(true) - menu.outerWidth(true)) + "px");
+    menu.css("left",($(window).width() - menu.outerWidth(true)) + "px");
     menu.slideUp();
 }
