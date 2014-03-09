@@ -12,7 +12,6 @@
 }
 
 .jumbotron img {
-    padding: 1em;
     width: 400px;
 }
 
@@ -49,6 +48,6 @@
     display: inline-block;
 }
 
-.jumbotronText .firstButton {
+.jumbotronText .pure-button {
     margin-left: 0 !important;
 }
