@@ -9,21 +9,20 @@ First and foremost, you are going to want to use Linux or MacOSX. There are ways
 First we need to have git and ruby installed. For Ubuntu/Debian:
 
 ```
-sudo apt-get install git-core ruby
+sudo aptitude install git-core ruby ruby1.9.1-dev
 ```
 
 Next we need to install the Jekyll and Bundle gems.
 
 ```
-gem install bundler
-gem install jekyll
+sudo gem install bundler
 ```
 
 Now we need to create a directory for you to work out of.
 
 ```
 mkdir openspace
-cd OpenSpace
+cd openspace
 git init
 ```
 
