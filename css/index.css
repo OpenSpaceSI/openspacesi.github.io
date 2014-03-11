@@ -32,3 +32,7 @@
 .jumbotronText .pure-button {
     margin-left: 0 !important;
 }
+
+.column .columnSpacer {
+	padding: 10px 20px;
+}
