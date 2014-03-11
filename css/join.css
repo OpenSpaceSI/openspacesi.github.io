@@ -1,0 +1,31 @@
+.priceHeader {
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+.priceCommunity .priceHeader {
+	background: #519251;
+}
+
+.priceMember .priceHeader {
+	background: #B22C12;
+}
+
+.priceYear .priceHeader {
+	background: #2C4985;
+}
+
+.priceDiscounts .priceHeader {
+	background: #222222;
+}
+
+.price {
+	font-size: 4em;
+}
+
+.priceSubtitle {
+	color: #DDDDDD;
+}
