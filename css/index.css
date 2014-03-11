@@ -29,25 +29,6 @@
     margin: 0.5em;
 }
 
-.content {
-    background: #EEEEEE;
-}
-
-.content .column {
-    background: #DFDFDF;
-    padding: 10px 20px;
-    margin: 20px 10px;
-    -moz-box-shadow:    inset 0 0 10px #AAAAAA;
-    -webkit-box-shadow: inset 0 0 10px #AAAAAA;
-    box-shadow:         inset 0 0 10px #AAAAAA;
-}
-
-.content .columnTitle {
-    text-transform: uppercase;
-    border-bottom: 1px solid;
-    display: inline-block;
-}
-
 .jumbotronText .pure-button {
     margin-left: 0 !important;
 }
