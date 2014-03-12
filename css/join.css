@@ -29,3 +29,29 @@
 .priceSubtitle {
 	color: #DDDDDD;
 }
+
+.benefits ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #444444;
+    margin: 0;
+}
+
+.benefits li {
+   padding: 10px;
+   border-bottom: 3px solid #EEEEEE;
+   border-top: 3px solid #EEEEEE;
+}
+
+.benefits ul li:first-child{
+    border-top: 0;
+}
+
+.splashscreen {
+    height: 400px;
+    background: url('/images/joinus.png');
+    background-size: cover cover;
+}
