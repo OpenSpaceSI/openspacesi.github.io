@@ -1,0 +1,438 @@
+@import 'component.css'; /*modal button styles*/
+@import 'content.css'; /*modal content styles*/
+
+
+body {
+	background-color: white;
+	padding: 51px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.4);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.4);
+}
+
+.CTAButton{
+    /*Border Radius*/
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background-color: #FF8E66;
+    border-bottom: 3px solid #ae5a41;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.CTAButtonBIG{
+    /*Border Radius*/
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background-color: #FF8E66;
+    border-bottom: 3px solid #ae5a41;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.CTAButtonBIG:hover{
+    background-color:#ae5a41;
+}
+
+.CTAButton:hover{
+    background-color:#ae5a41;
+}
+
+.round img{
+    border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.rounded {
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.border {
+    border: 1px solid #f3f;
+}
+
+a.navbar-brand {
+    text-transform: uppercase; 
+    font-size: 25px;
+}
+
+.box {
+    margin-bottom: 20px;
+    color: #000;
+    padding: 30px;
+	background-color: #fff;
+}
+
+.full-width {
+    background-color: #55acee;
+    position: relative;
+    margin: 0px -20px 0px -20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 75px;
+}
+
+a.button {
+    font-size: 20px !important;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    
+    display: inline-block;
+    width: auto;
+    padding: 10px 30px;
+    margin: 20px 0 0px 0;
+    font-size: 10pt;
+    cursor: pointer;
+
+    -webkit-background-clip: padding-box;
+
+    background-clip: padding-box;
+    border-radius: 5px;
+    
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+a.button:hover, a.button:active {
+    background: #fff;
+    color: #55acee;
+}
+
+.facebook {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+	background-color: #3B5998;
+    background-image: url(http://byarsmarket.com/test/images/facebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linkedin {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+	background-color: #007BB6;
+    background-image: url(http://byarsmarket.com/test/images/linkedin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+	background-color: #56A3D9;
+    background-image: url(http://byarsmarket.com/test/images/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.googleplus {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #919917;
+    position: relative;
+    padding: 30px;
+	background-color: #dd4b39;
+    background-image: url(http://byarsmarket.com/test/images/googleplus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* div[class*='col-sm-'] {margin: 0px 15px 0px 15px; } */
+
+.main {
+    max-width: 1170px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#navContainer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    background-color: #333;
+    width: 100px;
+    height 100px:
+}
+
+header{
+    background-color: white;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+#mainHeader{
+    background-image: url(http://hdw.datawallpaper.com/technology/computer-chip-322313.jpg);
+    -webkit-filter: grayscale(100%);
+    background-color: #000;
+    opacity: 15%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 160px 25px 160px 25px;
+}
+
+.slogan{
+    padding: 3px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+}
+
+footer{
+    background-color: #323943;
+    padding: 25px;
+}
+
+#join{
+    background-color: #222;
+    padding: 100px 50px 100px 50px;
+}
+
+#events{
+    background-image: url(http://designerstuts.com/wp-content/uploads/2014/01/media_13903789214391.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 25px;
+    color: white;
+}
+
+#contact{
+    background-color: white;
+    padding: 300px;
+    height: 500px;
+}
+
+.center{
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+}
+
+p{
+    font-size: 16px;
+}
+
+.navbar-nav {
+    border-color: #e7e7e7;
+}
+
+.navigation {
+    background-color: #e7e7e7;
+    color: grey;
+}
+
+.navigation:hover{
+    color: #ae5a41;
+}
+
+.navigation:active{
+    color: #ae5a41;
+}
+
+span.glyphicon {
+    font-size: 5.2em;
+    color: #a5a5a5;
+}
+
+.joinContent {
+    color: white;
+}
+
+#join{
+    padding: 100px 50px 100px 50px;
+}
+
+.footerText{
+    color: white;
+    font-size: 10px;
+}
+
+.social{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 64px;
+    width: 64px;
+}
+
+#services{
+    padding: 100px 50px 100px 50px;
+}
+.service{
+    padding: 20px;
+}
+
+/*Mobile Navigation*/
+.slicknav_btn { position: relative; display: block; vertical-align: middle; float: right; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
+.slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left; }
+.slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
+.slicknav_menu .slicknav_no-text { margin: 0 }
+.slicknav_menu .slicknav_icon-bar { display: block; width: 1.125em; height: 0.125em; border-radius: 1px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
+.slicknav_nav { clear: both }
+.slicknav_nav ul,
+.slicknav_nav li { display: block }
+.slicknav_nav .slicknav_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
+.slicknav_nav .slicknav_item { display: block; cursor: pointer; }
+.slicknav_nav a { display: block }
+.slicknav_nav .slicknav_item a { display: inline }
+.slicknav_menu:before,
+.slicknav_menu:after { content: " "; display: table; }
+.slicknav_menu:after { clear: both }
+/* IE6/7 support */
+.slicknav_menu { *zoom: 1 }
+
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+
+.slicknav_menu {
+	font-size:16px;
+}
+/* Button */
+.slicknav_btn {
+	margin: 5px 5px 6px;	
+	text-decoration:none;	
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	border-radius: 4px;  
+	background-color: #222222;
+}
+/* Button Text */
+.slicknav_menu  .slicknav_menutxt {	
+	color: #FFF;
+	font-weight: bold;	
+	text-shadow: 0 1px 3px #000;	
+}
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #f5f5f5;
+}
+.slicknav_menu {
+	background:#4c4c4c;
+	padding:5px;
+}
+.slicknav_nav {
+	color:#fff;
+	margin:0;	
+	padding:0;
+	font-size:0.875em;
+}
+.slicknav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow:hidden;
+}
+.slicknav_nav ul {
+	padding:0;
+	margin:0 0 0 20px;
+}
+.slicknav_nav .slicknav_item {
+	padding:5px 10px;
+	margin:2px 5px;
+}
+.slicknav_nav a{
+	padding:5px 10px;
+	margin:2px 5px;
+	text-decoration:none;
+	color:#fff;
+}
+.slicknav_nav .slicknav_item a {
+	padding:0;
+	margin:0;
+}
+.slicknav_nav .slicknav_item:hover {
+	border-radius: 6px;
+	background:#ccc;
+	color:#fff;	
+}
+.slicknav_nav a:hover{
+	border-radius: 6px;
+	background:#ccc;
+	color:#222;
+}
+.slicknav_nav .slicknav_txtnode {
+     margin-left:15px;   
+}
+
+.servicesText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.smallWhite{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.service.effect {
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
+}
+
+.effect{
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out; 
+    -o-transition: all 1s ease-in-out; 
+    -ms-transition: all 1s ease-in-out; 
+}
+
+.effect a:hover {
+    -webkit-transform: rotate(180deg); 
+    -moz-transform: rotate(180deg); 
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg); 
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    
+}
